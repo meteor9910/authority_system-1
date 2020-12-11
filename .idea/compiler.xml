@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="authority_common" />
+        <module name="authority_service" />
         <module name="authority_mapper" />
         <module name="authority_domain" />
-        <module name="authority_service" />
+        <module name="authority_common" />
         <module name="authority_web" />
       </profile>
     </annotationProcessing>

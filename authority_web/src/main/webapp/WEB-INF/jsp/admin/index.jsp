@@ -46,13 +46,13 @@
 								</dl>
 							<dl class="layui-nav-child">
 								<dd>
-									<a href="javascript:;" style="padding-left: 40px;" data-url="./role/role_list.jsp">
+									<a href="javascript:;" style="padding-left: 40px;" data-url="${ctx}/role/toRolePage">
 										<span class='iconfont icon-group_fill'></span>&nbsp;&nbsp;角色管理</a>
 								</dd>
 							</dl>
 							<dl class="layui-nav-child">
 								<dd>
-									<a href="javascript:;" style="padding-left: 40px;" data-url="./menu/menu_list.jsp">
+									<a href="javascript:;" style="padding-left: 40px;" data-url=${ctx}/menu/toMenuPage">
 										<span class='iconfont icon-createtask'></span>&nbsp;&nbsp;菜单管理</a>
 								</dd>
 							</dl>
