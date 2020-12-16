@@ -17,9 +17,9 @@
 </head>
 <body>
 	<div>
-			<button class="layui-btn bt_add" data="893px, 550px" data-url="${ctx}/a/menu/addPage">新增</button>
-			<button class="layui-btn layui-btn-warm bt_update" data="893px, 550px" data-url="${ctx}/a/menu/updatePage">修改</button>
-			<button class="layui-btn layui-btn-danger bt_delete" data-url="${ctx}/a/menu/delete">删除</button>
+			<button class="layui-btn bt_add" data="893px, 550px" data-url="${ctx}/menu/addPage">新增</button>
+			<button class="layui-btn layui-btn-warm bt_update" data="893px, 550px" data-url="${ctx}/menu/toUpdatePage">修改</button>
+			<button class="layui-btn layui-btn-danger bt_delete" data-url="${ctx}/menu/delete">删除</button>
 	</div>
 
 	<table class="layui-hide" id="menu" lay-data="{id: 'menu'}"></table>
@@ -27,9 +27,11 @@
 		layui.use('table', function() {
 			var table = layui.table;
 
+			let util = layui.util;
+
 			table.render({
 				elem : '#menu',
-				url : '${ctx}/a/menu/list',
+				url : '${ctx}/menu/list',
 				cellMinWidth : 80,
 				cols : [ [ {
 					type : 'checkbox'
@@ -105,10 +107,24 @@
 					width : 60
 				}, {
 					field : 'createTime',
-					title : '创建时间'
+					title : '创建时间',
+                    templet:function (res) {
+                        if (res.createTime !== null){
+                                return util.toDateString(res.createTime,"yyyy-MM-dd HH:mm:ss");
+                            } else {
+                                return "";
+                            }
+                        }
 				}, {
 					field : 'updateTime',
-					title : '更新时间'
+					title : '更新时间',
+                    templet:function (res) {
+                        if(res.updateTime !== null){
+                                return util.toDateString(res.updateTime,"yyyy-MM-dd HH:mm:ss");
+                            }else{
+                                return "";
+                        }
+                    }
 				}] ]
 			});
 

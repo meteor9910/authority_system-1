@@ -3,16 +3,21 @@ package com.hopu.web.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.hopu.domain.Role;
 import com.hopu.domain.User;
 import com.hopu.utils.ResponseEntity;
 import com.hopu.service.IUserService;
+import com.hopu.utils.ShiroUtils;
 import com.hopu.utils.UUIDUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -26,12 +31,27 @@ public class UserController {
     @Autowired
     private IUserService userService;
 
+    @RequestMapping("/toSetRole")
+    public String toSetRole(String id , Model model){
+        model.addAttribute("user_id",id);
+        return "admin/user/user_setRole";
+    }
+
+    @ResponseBody
+    @RequestMapping("setRole")
+    public ResponseEntity setRole(String id, @RequestBody ArrayList<Role> roles){
+        userService.setRole(id,roles);
+        return success();
+    }
+
+    @RequiresPermissions("user:list")
     @GetMapping("/toListPage")
     public String toUserListPage(){
         return "admin/user/user_list";
     }
 
     @RequestMapping("/toAddPage")
+    @RequiresPermissions("user:add")
     public String toAddPage(){
         return "/admin/user/user_add";
     }
@@ -53,7 +73,7 @@ public class UserController {
         user.setId(UUIDUtils.getID());
         user.setSalt(UUIDUtils.getID());
         user.setCreateTime(new Date());
-
+        ShiroUtils.encPass(user);
         userService.save(user);
         return success();
     }
@@ -70,6 +90,7 @@ public class UserController {
     @RequestMapping("/update")
     @ResponseBody
     public ResponseEntity updateUser(User user){
+        ShiroUtils.encPass(user);
         user.setUpdateTime(new Date());
         userService.updateById(user);
         return success();

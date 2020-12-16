@@ -16,6 +16,7 @@
 </head>
 <body>
 	<div style="padding: 15px;">
+		<input type="hidden" value="${role_Id}" id="id">
 		<table class="layui-hide" id="menu" lay-data="{id: 'menu'}"></table>
 		<div>
 			<button class="layui-btn bt_setMenu">立即提交</button>
@@ -31,7 +32,7 @@
 
 				table.render({
 					elem : '#menu',
-					url : '${ctx}/a/menu/MenuList?id='+id,
+					url : '${ctx}/menu/MenuList?id='+id,
 					cellMinWidth : 80,
 					cols : [ [ {
 						type : 'checkbox'
@@ -118,7 +119,28 @@
 					parent.layer.closeAll();
 				});
 
-
+				$('.bt_setMenu').on('click',function () {
+					let checkStatus = layui.table.checkStatus($('table').attr("id"));
+					$.ajax({
+						type:"POST",
+						url:'${ctx}/role/setMenu?id='+$('#id').val(),
+						contentType:"application/json",
+						dataType:'json',
+						data:JSON.stringify(checkStatus.data),
+						success:function (data) {
+							if(data.result==true){
+								parent.layer.msg(data.msg,{icon:1 , time:1500});
+								let index = parent.layer.getFrameIndex(window.name);
+								parent.layer.close(index);
+							}else{
+								layer.msg(data.msg,{icon:2 , time:1500})
+							}
+						},
+						error:function (res) {
+							layer.msg("未知异常",{icon:2})
+						}
+					})
+				})
 
 			});
 		})

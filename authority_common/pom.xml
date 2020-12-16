@@ -11,5 +11,12 @@
 
     <artifactId>authority_common</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.hopu</groupId>
+            <artifactId>authority_domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

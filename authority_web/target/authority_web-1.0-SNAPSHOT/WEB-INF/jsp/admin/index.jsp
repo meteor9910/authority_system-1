@@ -25,10 +25,10 @@
 			<div class="layui-logo" style="font-weight: bold; font-size: 20px;">后台管理平台</div>
 			<ul class="layui-nav layui-layout-right">
 				<li class="layui-nav-item"><a href="javascript:;"> <img
-						src="http://t.cn/RCzsdCq" class="layui-nav-img">石头
+						src="http://t.cn/RCzsdCq" class="layui-nav-img">${sessionScope.user.nickname}
 				</a>
 				</li>
-				<li class="layui-nav-item"><a href="${pageContext.request.contextPath}/user/logout">注销</a></li>
+				<li class="layui-nav-item"><a href="${pageContext.request.contextPath}/logout">注销</a></li>
 			</ul>
 		</div>
 
@@ -52,7 +52,7 @@
 							</dl>
 							<dl class="layui-nav-child">
 								<dd>
-									<a href="javascript:;" style="padding-left: 40px;" data-url="./menu/menu_list.jsp">
+									<a href="javascript:;" style="padding-left: 40px;" data-url="${ctx}/menu/toMenuPage">
 										<span class='iconfont icon-createtask'></span>&nbsp;&nbsp;菜单管理</a>
 								</dd>
 							</dl>

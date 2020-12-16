@@ -16,7 +16,7 @@
 </head>
 <body>
 	<div style="padding: 15px;">
-		<input type="hidden" value="${param.id}" id="id">
+		<input type="hidden" value="${user_id}" id="id">
 		<form>
 			<div class="demoTable">
 				角色名：
@@ -43,7 +43,7 @@
 
 			table.render({
 				elem : '#role',
-				<%--url : '${ctx}/a/role/roleList?userId='+id,--%>
+				url : '${ctx}/role/roleList?userId='+id,
 				cellMinWidth : 80,
 				cols : [ [ {
 					type : 'checkbox'
@@ -83,6 +83,29 @@
 			$('.bt_close').on('click', function() {
 				parent.layer.closeAll();
 			});
+
+			$('.bt_setRole').on('click',function () {
+				let checkStatus = layui.table.checkStatus($('table').attr("id"));
+				$.ajax({
+					type:"POST",
+					url:'${ctx}/user/setRole?id='+$('#id').val(),
+					contentType:"application/json",
+					dataType:'json',
+					data:JSON.stringify(checkStatus.data),
+					success:function (data) {
+						if(data.result==true){
+							parent.layer.msg(data.msg,{icon:1 , time:1500});
+							let index = parent.layer.getFrameIndex(window.name);
+							parent.layer.close(index);
+						}else{
+							layer.msg(data.msg,{icon:2 , time:1500})
+						}
+					},
+					error:function (res) {
+						layer.msg("未知异常",{icon:2})
+					}
+				})
+			})
 
 		});
 	</script>
