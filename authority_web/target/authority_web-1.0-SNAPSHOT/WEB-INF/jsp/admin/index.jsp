@@ -26,7 +26,7 @@
 			<div class="layui-logo" style="font-weight: bold; font-size: 20px;">后台管理平台</div>
 			<ul class="layui-nav layui-layout-right">
 				<li class="layui-nav-item"><a href="javascript:;"> <img
-						src="${sessionScope.user.user_img}" class="layui-nav-img">${sessionScope.user.nickname}
+						src="http://as-img.oss-cn-beijing.aliyuncs.com/${sessionScope.user.user_img}" class="layui-nav-img">${sessionScope.user.nickname}
 				</a>
 				</li>
 				<li class="layui-nav-item"><a href="${pageContext.request.contextPath}/logout">注销</a></li>
@@ -70,7 +70,9 @@
 
 		<div class="layui-body">
 			<!-- 内容主体区域 -->
-			<div style="padding: 15px; display: none"></div>
+			<div style="padding: 15px; display: none">
+
+			</div>
 		</div>
 
 		<div class="layui-footer">

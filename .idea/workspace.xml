@@ -7,22 +7,206 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88572eac-8430-46d7-bb4e-53f85d243a47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/authority_common/src/main/java/com/hopu/utils/ALiYunOOSUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/authority_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/authority_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49257412-b969-4742-8a06-96dd287b7f34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/49257412-b969-4742-8a06-96dd287b7f34.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/authority_domain/src/main/java/com/hopu/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/authority_domain/src/main/java/com/hopu/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authority_service/src/main/java/com/hopu/shiro/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/authority_service/src/main/java/com/hopu/shiro/MyRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_domain/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_mapper/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authority_web/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authority_web/src/main/resources/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/user/user_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/user/user_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/user/user_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/user/user_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authority_web/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authority_web/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/403.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/menu/menu_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/menu/menu_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/menu/menu_update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/role/role_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/role/role_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/role/role_setMenu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/role/role_update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/user/user_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/user/user_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/user/user_setRole.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/user/user_update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/admin/welcome/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/jsp/front/user/user_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/base/common.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/hp_ext.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/iconfont/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/iconfont/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/iconfont/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/iconfont/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/iconfont/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/iconfont/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/iconfont/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/iconfont/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/iconfont/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/img/403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/hp_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/hp_list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/js/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/authority_web-1.0-SNAPSHOT/static/plugins/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority_web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -111,7 +295,7 @@
         <entry file="file://$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="640">
-              <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1620#1621#0" expanded="true" />
@@ -125,8 +309,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="396">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authority_common/src/main/java/com/hopu/utils/ShiroUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authority_common/src/main/java/com/hopu/utils/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -134,23 +339,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authority_domain/src/main/java/com/hopu/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="793">
+              <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
               <folding>
                 <element signature="e#590#591#0" expanded="true" />
                 <element signature="e#621#622#0" expanded="true" />
                 <element signature="e#669#670#0" expanded="true" />
                 <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authority_service/src/main/java/com/hopu/shiro/MyRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1271#1279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+            <state relative-caret-position="180">
+              <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -166,7 +386,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/user/user_add.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1476">
@@ -178,28 +398,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authority_web/src/main/resources/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://49257412-b969-4742-8a06-96dd287b7f34/schema/authority_system/table/t_user_role">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
+            <state relative-caret-position="1008">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -262,12 +462,12 @@
         <option value="$PROJECT_DIR$/authority_web/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/user/user_add.jsp" />
-        <option value="$PROJECT_DIR$/authority_domain/src/main/java/com/hopu/domain/User.java" />
         <option value="$PROJECT_DIR$/authority_common/src/main/java/com/hopu/utils/ALiYunOOSUtils.java" />
         <option value="$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/UserController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/authority_domain/src/main/java/com/hopu/domain/User.java" />
+        <option value="$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/LoginController.java" />
       </list>
     </option>
   </component>
@@ -941,12 +1141,12 @@
       <workItem from="1608093943108" duration="10991000" />
       <workItem from="1608252178496" duration="3639000" />
       <workItem from="1608259546716" duration="3990000" />
-      <workItem from="1608275388693" duration="12824000" />
+      <workItem from="1608275388693" duration="16952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116473000" />
+    <option name="totallyTimeSpent" value="120601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -961,7 +1161,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.21588486" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.21588486" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.20095949" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -971,8 +1171,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1778742" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3253796" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17895879" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24186552" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -990,10 +1190,10 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.15031983" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15031983" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.17324094" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.17324094" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Preview" order="9" weight="0.1705757" />
@@ -1017,17 +1217,16 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/LoginController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/authority_common/src/main/java/com/hopu/utils/IconFontUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/menu/menu_add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -1151,13 +1350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_common/src/main/java/com/hopu/utils/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authority_mapper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1183,16 +1375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authority_common/src/main/java/com/hopu/utils/ShiroUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,18 +1451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_service/src/main/java/com/hopu/shiro/MyRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1271#1279#0" expanded="true" />
-            <element signature="e#1799#1809#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -1347,30 +1517,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authority_web/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_domain/src/main/java/com/hopu/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="640">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding>
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/user/user_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_common/src/main/java/com/hopu/utils/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1383,37 +1574,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/authority_common/src/main/java/com/hopu/utils/ShiroUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        <state relative-caret-position="509">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_service/src/main/java/com/hopu/shiro/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1271#1279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_domain/src/main/java/com/hopu/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+          <folding>
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authority_web/src/main/java/com/hopu/web/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="396">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authority_web/src/main/webapp/WEB-INF/jsp/admin/user/user_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
         </state>
       </provider>
     </entry>

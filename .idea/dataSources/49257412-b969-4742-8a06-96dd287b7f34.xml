@@ -1119,7 +1119,7 @@
     <column id="267" parent="238" name="user_img">
       <Position>6</Position>
       <Comment>头像</Comment>
-      <DataType>text|0s</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="268" parent="238" name="tel">

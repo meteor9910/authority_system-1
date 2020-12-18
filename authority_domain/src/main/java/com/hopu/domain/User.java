@@ -19,14 +19,14 @@ public class User extends BaseEntity {
     private Integer sex; // 性别：1、男；-1、女
     private String email; // 邮箱
     private String status;  // 状态：on、可用；其它、禁用
-    private String user_img;
+    private String userImg;
 
     public String getUser_img() {
-        return user_img;
+        return userImg;
     }
 
     public void setUser_img(String user_img) {
-        this.user_img = user_img;
+        this.userImg = user_img;
     }
 
     public String getUserName() {
@@ -96,14 +96,15 @@ public class User extends BaseEntity {
     @Override
     public String toString() {
         return "User{" +
-        "userName=" + userName +
-        ", password=" + password +
-        ", salt=" + salt +
-        ", nickname=" + nickname +
-        ", tel=" + tel +
-        ", sex=" + sex +
-        ", email=" + email +
-        ", status=" + status +
-        "}";
+                "userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                ", salt='" + salt + '\'' +
+                ", nickname='" + nickname + '\'' +
+                ", tel='" + tel + '\'' +
+                ", sex=" + sex +
+                ", email='" + email + '\'' +
+                ", status='" + status + '\'' +
+                ", user_img='" + userImg + '\'' +
+                '}';
     }
 }
