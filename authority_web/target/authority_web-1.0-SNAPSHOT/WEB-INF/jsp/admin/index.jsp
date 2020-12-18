@@ -9,6 +9,7 @@
 	content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>后台管理平台</title>
 <%@ include file="/static/base/common.jspf" %>
+<%@taglib uri="http://shiro.apache.org/tags" prefix="shiro" %>
 <script type="text/javascript">
 	$(function (){
 		$('.layui-nav-child>dd>a').on('click', function(){
@@ -25,7 +26,7 @@
 			<div class="layui-logo" style="font-weight: bold; font-size: 20px;">后台管理平台</div>
 			<ul class="layui-nav layui-layout-right">
 				<li class="layui-nav-item"><a href="javascript:;"> <img
-						src="http://t.cn/RCzsdCq" class="layui-nav-img">${sessionScope.user.nickname}
+						src="${sessionScope.user.user_img}" class="layui-nav-img">${sessionScope.user.nickname}
 				</a>
 				</li>
 				<li class="layui-nav-item"><a href="${pageContext.request.contextPath}/logout">注销</a></li>
@@ -38,24 +39,30 @@
 				<ul class="layui-nav layui-nav-tree" lay-filter="test">
 						<li class="layui-nav-item layui-nav-itemed"><a class=""
 							href="javascript:;"><span class='iconfont icon-setup'></span>&nbsp;&nbsp;系统管理</a>
-							<dl class="layui-nav-child">
+							<shiro:hasPermission name="user:list">
+								<dl class="layui-nav-child">
 									<dd>
 										<a href="javascript:;" style="padding-left: 40px;" data-url="${ctx}/user/toListPage">
-										<span class='iconfont icon-people'></span>&nbsp;&nbsp;用户管理</a>
+											<span class='iconfont icon-people'></span>&nbsp;&nbsp;用户管理</a>
 									</dd>
 								</dl>
-							<dl class="layui-nav-child">
-								<dd>
-									<a href="javascript:;" style="padding-left: 40px;" data-url="${ctx}/role/toRolePage">
-										<span class='iconfont icon-group_fill'></span>&nbsp;&nbsp;角色管理</a>
-								</dd>
-							</dl>
-							<dl class="layui-nav-child">
-								<dd>
-									<a href="javascript:;" style="padding-left: 40px;" data-url="${ctx}/menu/toMenuPage">
-										<span class='iconfont icon-createtask'></span>&nbsp;&nbsp;菜单管理</a>
-								</dd>
-							</dl>
+							</shiro:hasPermission>
+							<shiro:hasPermission name="role:list">
+								<dl class="layui-nav-child">
+									<dd>
+										<a href="javascript:;" style="padding-left: 40px;" data-url="${ctx}/role/toRolePage">
+											<span class='iconfont icon-group_fill'></span>&nbsp;&nbsp;角色管理</a>
+									</dd>
+								</dl>
+							</shiro:hasPermission>
+							<shiro:hasPermission name="menu:list">
+								<dl class="layui-nav-child">
+									<dd>
+										<a href="javascript:;" style="padding-left: 40px;" data-url="${ctx}/menu/toMenuPage">
+											<span class='iconfont icon-createtask'></span>&nbsp;&nbsp;菜单管理</a>
+									</dd>
+								</dl>
+							</shiro:hasPermission>
 						</li>
 				</ul>
 			</div>

@@ -1,0 +1,11 @@
+com\hopu\service\IRoleMenuService.class
+com\hopu\service\impl\MenuServiceImpl.class
+com\hopu\service\IMenuService.class
+com\hopu\service\impl\UserServiceImpl.class
+com\hopu\service\impl\UserRoleServiceImpl.class
+com\hopu\service\IUserRoleService.class
+com\hopu\service\IUserService.class
+com\hopu\service\impl\RoleMenuServiceImpl.class
+com\hopu\service\impl\RoleServiceImpl.class
+com\hopu\service\IRoleService.class
+com\hopu\shiro\MyRealm.class

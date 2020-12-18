@@ -26,7 +26,7 @@
 			<div class="layui-logo" style="font-weight: bold; font-size: 20px;">后台管理平台</div>
 			<ul class="layui-nav layui-layout-right">
 				<li class="layui-nav-item"><a href="javascript:;"> <img
-						src="http://t.cn/RCzsdCq" class="layui-nav-img">${sessionScope.user.nickname}
+						src="${sessionScope.user.user_img}" class="layui-nav-img">${sessionScope.user.nickname}
 				</a>
 				</li>
 				<li class="layui-nav-item"><a href="${pageContext.request.contextPath}/logout">注销</a></li>

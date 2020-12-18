@@ -40,11 +40,11 @@ public class MyRealm extends AuthorizingRealm {
         userRole.setUserId(user.getId());
         List<UserRole> userRoleList = userRoleService.list(new QueryWrapper<UserRole>(userRole));
 
-        List<String> roleIds = new ArrayList<>();
+        List<String> roleIds = new ArrayList<String>();
 
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
         for (UserRole userRole1 : userRoleList){
-            roleIds.add(userRole.getRoleId());
+            roleIds.add(userRole1.getRoleId());
             Role role = roleService.getById(userRole1.getRoleId());
             if (role!=null) {
                 simpleAuthorizationInfo.addRole(role.getRole());

@@ -19,7 +19,15 @@ public class User extends BaseEntity {
     private Integer sex; // 性别：1、男；-1、女
     private String email; // 邮箱
     private String status;  // 状态：on、可用；其它、禁用
+    private String user_img;
 
+    public String getUser_img() {
+        return user_img;
+    }
+
+    public void setUser_img(String user_img) {
+        this.user_img = user_img;
+    }
 
     public String getUserName() {
         return userName;

@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hopu.domain.Role;
 import com.hopu.domain.User;
+import com.hopu.utils.ALiYunOOSUtils;
 import com.hopu.utils.ResponseEntity;
 import com.hopu.service.IUserService;
 import com.hopu.utils.ShiroUtils;
@@ -15,8 +16,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -58,7 +66,7 @@ public class UserController {
 
     @ResponseBody
     @RequestMapping("/add")
-    public ResponseEntity addUser(User user){
+    public ResponseEntity addUser(User user, @RequestParam("user-img")MultipartFile multipartFile){
         // 可以先对用户名重名校验
         // 创建条件查询封装对象
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
@@ -67,14 +75,28 @@ public class UserController {
 
         if(one !=null){
             return error("用户名已经存在了");
+            // 示例 http://as-img.oss-cn-beijing.aliyuncs.com/20201218183032.jpg
         }
 
-        // 开始添加用户
-        user.setId(UUIDUtils.getID());
-        user.setSalt(UUIDUtils.getID());
-        user.setCreateTime(new Date());
-        ShiroUtils.encPass(user);
-        userService.save(user);
+        String oldName = multipartFile.getOriginalFilename();
+        System.out.println(oldName);
+        String[] fileType = oldName.split("\\.");
+        try {
+            String newFileName = ALiYunOOSUtils.createAnOrderId();
+
+            String newName = newFileName + "." + fileType[1];
+
+            ALiYunOOSUtils.uploadFile(multipartFile,newName);
+
+            user.setUser_img(newName);
+            user.setId(UUIDUtils.getID());
+            user.setSalt(UUIDUtils.getID());
+            user.setCreateTime(new Date());
+            ShiroUtils.encPass(user);
+            userService.save(user);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return success();
     }
 

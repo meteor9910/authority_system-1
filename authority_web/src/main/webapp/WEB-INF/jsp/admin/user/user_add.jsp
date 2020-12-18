@@ -7,10 +7,11 @@
 	<title>用户添加</title>
 	<%@ include file="/static/base/common.jspf"%>
 	<script type="text/javascript" src="${ctx}/static/js/hp_form.js"></script>
+	<script src="../../../../static/plugins/jquery.min.js"></script>
 </head>
 <body>
 <div class="body_main">
-	<form class="layui-form layui-form-pane" action="${ctx}/user/add">
+	<form class="layui-form layui-form-pane" action="${ctx}/user/add" method="post" enctype="multipart/form-data" id="user-info-form">
 		<div class="layui-form-item">
 			<label class="layui-form-label">昵称</label>
 			<div class="layui-input-block">
@@ -57,6 +58,12 @@
 			</div>
 		</div>
 		<div class="layui-form-item">
+			<label class="layui-form-label">头像上传</label>
+			<div class="layui-input-block">
+				<input type="file" name="user-img" multiple>
+			</div>
+		</div>
+		<div class="layui-form-item">
 			<label class="layui-form-label">状态</label>
 			<div class="layui-input-block">
 				<input type="checkbox" checked="" name="status" lay-skin="switch"
@@ -65,7 +72,7 @@
 		</div>
 		<div class="layui-form-item">
 			<div class="layui-input-block">
-				<button class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+				<button class="layui-btn" lay-submit="" onclick="subm()" lay-filter="demo1">立即提交</button>
 				<button type="reset" class="layui-btn layui-btn-primary">重置</button>
 			</div>
 		</div>
@@ -85,6 +92,32 @@
 			layer.msg('手机号码格式错误', {icon: 2, time: 2000});
 			return false;
 		}
+	}
+
+	function subm() {
+		let formData = new FormData(document.getElementById("user-info-form"));
+
+		// let fileObj = $('#fileUpload').files[0];
+		//
+		// let formData = $('#fileUpload').serialize();
+		//
+		// formData.append('fileObj',fileObj);
+
+		$.ajax({
+			type:'POST',
+			url:"${ctx}/user/add",
+			data:formData,
+			async: false,
+			cache: false,
+			processData: false,
+			contentType: false,
+			success:function () {
+
+			},
+			error:function () {
+				alert("文件上传失败");
+			}
+		})
 	}
 </script>
 </body>
