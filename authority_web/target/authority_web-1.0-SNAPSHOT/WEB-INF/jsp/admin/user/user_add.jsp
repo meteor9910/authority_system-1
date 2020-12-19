@@ -60,7 +60,7 @@
 		<div class="layui-form-item">
 			<label class="layui-form-label">头像上传</label>
 			<div class="layui-input-block">
-				<input type="file" name="user-img" multiple>
+				<input type="file" name="userImg" multiple>
 			</div>
 		</div>
 		<div class="layui-form-item">

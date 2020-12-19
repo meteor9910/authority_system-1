@@ -68,6 +68,13 @@
 			</div>
 		</div>
 		<div class="layui-form-item">
+			<label class="layui-form-label">头像修改</label>
+			<div class="layui-input-block">
+				<input type="file" name="user-img" multiple>
+				<img src="http://as-img.oss-cn-beijing.aliyuncs.com/${sessionScope.user.userImg}" alt="PIC" width="100px" height="100px">
+			</div>
+		</div>
+		<div class="layui-form-item">
 			<label class="layui-form-label">状态</label>
 			<div class="layui-input-block">
 				<input type="checkbox" name="status" lay-skin="switch"
