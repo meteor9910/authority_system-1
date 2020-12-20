@@ -17,14 +17,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
-import java.io.File;
 import java.io.IOException;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -111,7 +106,33 @@ public class UserController {
     // 用户修改
     @RequestMapping("/update")
     @ResponseBody
-    public ResponseEntity updateUser(User user){
+    public ResponseEntity updateUser(User user , @RequestParam("user-img")MultipartFile multipartFile){
+        User user1 = userService.getOne(new QueryWrapper<User>().eq("user_name", user.getUserName()));
+        if (user1.getUser_img() == null){
+            String oldName = multipartFile.getOriginalFilename();
+            System.out.println(oldName);
+            String[] fileType = oldName.split("\\.");
+            try {
+                String newFileName = ALiYunOOSUtils.createAnOrderId();
+                String newName = newFileName + "." + fileType[1];
+                ALiYunOOSUtils.uploadFile(multipartFile,newName);
+                user.setUser_img(newName);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }else {
+            try {
+                ALiYunOOSUtils.deleteFile(user1.getUser_img());
+                String oldName = multipartFile.getOriginalFilename();
+                String[] fileType = oldName.split("\\.");
+                String newFileName = ALiYunOOSUtils.createAnOrderId();
+                String newName = newFileName + "." + fileType[1];
+                ALiYunOOSUtils.uploadFile(multipartFile,newName);
+                user.setUser_img(newName);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
         ShiroUtils.encPass(user);
         user.setUpdateTime(new Date());
         userService.updateById(user);

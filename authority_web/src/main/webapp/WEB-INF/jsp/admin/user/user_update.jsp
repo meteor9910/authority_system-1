@@ -7,10 +7,11 @@
 	<title>用户修改</title>
 	<%@ include file="/static/base/common.jspf"%>
 	<script type="text/javascript" src="${ctx}/static/js/hp_form.js"></script>
+	<script src="../../../../static/plugins/jquery.min.js"></script>
 </head>
 <body>
 <div class="body_main">
-	<form class="layui-form layui-form-pane" action="${ctx}/user/update">
+	<form class="layui-form layui-form-pane" action="${ctx}/user/update"  method="post" enctype="multipart/form-data" id="user-info-form">
 		<div class="layui-form-item">
 			<div class="layui-input-block">
 				<input type="hidden" value="${user.id}" name="id">
@@ -83,7 +84,7 @@
 		</div>
 		<div class="layui-form-item">
 			<div class="layui-input-block">
-				<button class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+				<button class="layui-btn" lay-submit="" lay-filter="demo1" onclick="subm()">立即提交</button>
 				<button type="reset" class="layui-btn layui-btn-primary">重置</button>
 			</div>
 		</div>
@@ -103,6 +104,32 @@
 			layer.msg('手机号码格式错误', {icon: 2, time: 2000});
 			return false;
 		}
+	}
+
+	function subm() {
+		let formData = new FormData(document.getElementById("user-info-form"));
+
+		// let fileObj = $('#fileUpload').files[0];
+		//
+		// let formData = $('#fileUpload').serialize();
+		//
+		// formData.append('fileObj',fileObj);
+
+		$.ajax({
+			type:'POST',
+			url:"${ctx}/user/update",
+			data:formData,
+			async: false,
+			cache: false,
+			processData: false,
+			contentType: false,
+			success:function () {
+
+			},
+			error:function () {
+				alert("文件上传失败");
+			}
+		})
 	}
 </script>
 </body>

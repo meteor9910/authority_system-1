@@ -27,7 +27,18 @@ public class ALiYunOOSUtils {
         ossClient.shutdown();
     }
 
-    public static String createAnOrderId() {
+    public static void deleteFile(String objectName){
+        // 创建OSSClient实例。
+        OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
+
+// 删除文件。如需删除文件夹，请将ObjectName设置为对应的文件夹名称。如果文件夹非空，则需要将文件夹下的所有object删除后才能删除该文件夹。
+        ossClient.deleteObject("as-img", objectName);
+
+// 关闭OSSClient。
+        ossClient.shutdown();
+    }
+
+  public static String createAnOrderId() {
         DateFormat dateFormat01 = new SimpleDateFormat("yyyyMMddHHmmss");
         return dateFormat01.format(new java.util.Date());
     }
