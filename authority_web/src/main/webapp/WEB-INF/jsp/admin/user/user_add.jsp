@@ -7,11 +7,11 @@
 	<title>用户添加</title>
 	<%@ include file="/static/base/common.jspf"%>
 	<script type="text/javascript" src="${ctx}/static/js/hp_form.js"></script>
-	<script src="../../../../static/plugins/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../static/plugins/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 <div class="body_main">
-	<form class="layui-form layui-form-pane" action="${ctx}/user/add" method="post" enctype="multipart/form-data" id="user-info-form">
+	<form class="layui-form layui-form-pane" action="" method="post" enctype="multipart/form-data" id="user-info-form">
 		<div class="layui-form-item">
 			<label class="layui-form-label">昵称</label>
 			<div class="layui-input-block">
@@ -60,7 +60,7 @@
 		<div class="layui-form-item">
 			<label class="layui-form-label">头像上传</label>
 			<div class="layui-input-block">
-				<input type="file" name="userImg" multiple>
+				<input type="file" name="user-img" >
 			</div>
 		</div>
 		<div class="layui-form-item">
@@ -95,7 +95,10 @@
 	}
 
 	function subm() {
-		let formData = new FormData(document.getElementById("user-info-form"));
+
+		let temp = document.getElementById("user-info-form");
+
+		let formData = new FormData(temp);
 
 		// let fileObj = $('#fileUpload').files[0];
 		//
@@ -107,16 +110,16 @@
 			type:'POST',
 			url:"${ctx}/user/add",
 			data:formData,
-			async: false,
-			cache: false,
-			processData: false,
-			contentType: false,
+			async:false,
+			cache:false,
+			processData:false,
+			contentType:false,
 			success:function () {
 
 			},
 			error:function () {
 				alert("文件上传失败");
-			}
+			},
 		})
 	}
 </script>

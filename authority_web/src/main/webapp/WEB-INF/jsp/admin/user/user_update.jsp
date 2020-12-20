@@ -7,7 +7,7 @@
 	<title>用户修改</title>
 	<%@ include file="/static/base/common.jspf"%>
 	<script type="text/javascript" src="${ctx}/static/js/hp_form.js"></script>
-	<script src="../../../../static/plugins/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../static/plugins/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 <div class="body_main">
@@ -72,7 +72,7 @@
 			<label class="layui-form-label">头像修改</label>
 			<div class="layui-input-block">
 				<input type="file" name="user-img" multiple>
-				<img src="http://as-img.oss-cn-beijing.aliyuncs.com/${sessionScope.user.userImg}" alt="PIC" width="100px" height="100px">
+				<img src="http://as-img.oss-cn-beijing.aliyuncs.com/${sessionScope.user.user_img}" alt="PIC" width="100px" height="100px">
 			</div>
 		</div>
 		<div class="layui-form-item">
